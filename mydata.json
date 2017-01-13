@@ -1,0 +1,35 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Taxes",
+      "size": 41
+    },
+    {
+      "name": "Fonds",
+      "children": [
+        {
+          "name": "DAX",
+          "size": 17
+        },
+        {
+          "name": "Bitcoins",
+          "size": 32
+        },
+        {
+          "name": "NASDAQ",
+          "children": [
+            {
+              "name": "Greenwich AG",
+              "size": 8
+            },
+            {
+              "name": "VW AG",
+              "size": 80
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
